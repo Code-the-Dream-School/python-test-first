@@ -1,5 +1,1 @@
-def hello():
-    return "Hello!"
-
-def greet(name):
-    return f"Hello, {name}!"
+# write your code below

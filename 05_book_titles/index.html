@@ -25,14 +25,23 @@
 <ul>
 <li>classes and objects</li>
 <li>instance variables</li>
-<li>setter methods</li>
+<li>getter and setter methods</li>
 <li>strings</li>
 </ul>
 
 
 <h1>Notes</h1>
 
-<p>Book Titles in English obey some strange capitalization rules. For example, "and" is lowercase in "War and Peace". This test attempts to make sense of some of those rules.</p>
+<p>Book Titles in English obey some strange capitalization rules. 
+For example, "and" is lowercase in "War and Peace". This test attempts to make 
+sense of some of those rules.</p>
+<p>In this lesson, you should use a private instance variable such as __title in your Book class.
+Private instance variables begin with two underscores, so 
+as to discourage people from accessing them outside the class, except through getters and setters.
+The setter function should capitalize the book title appropriately before storing it in the private instance
+variable.  Remember that the methods of a Python class always take self as the first argument, BUT you don't pass
+this argument when calling the function.</p>
+<p>You can reuse your titleize function from the simon_says exercise -- but change it to handle self.</p>
 </div>
 </div>
   </body>
