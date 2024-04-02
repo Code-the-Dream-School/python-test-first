@@ -21,11 +21,8 @@ def test_sum_7_11():
 def test_sum_array():
     assert calculator.sum([1,3,5,7,9]) == 25
 
-def test_multiply_two():
-    assert calculator.multiply([6,7]) == 42
-
-def test_multiply_several():
-    assert calculator.multiply([4,5,8]) == 160
+def test_multiply():
+    assert calculator.multiply(6,7) == 42
 
 def test_power():
     assert calculator.power(2,5) == 32

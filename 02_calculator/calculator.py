@@ -10,8 +10,8 @@ def subtract(a,b):
 def sum(a):
     return functools.reduce(lambda x, y: x+y, a)
 
-def multiply(a):
-    return functools.reduce(lambda x, y: x*y, a)
+def multiply(a,b):
+    return a*b
 
 def power(a,b):
     return a ** b
