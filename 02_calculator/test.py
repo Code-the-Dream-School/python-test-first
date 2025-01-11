@@ -21,14 +21,10 @@ def test_sum_7_11():
 def test_sum_array():
     assert calculator.sum([1,3,5,7,9]) == 25
 
-def test_multiply():
-    assert calculator.multiply(6,7) == 42
+def test_make_dictionary():
+    assert calculator.make_dictionary(first=1, second=2, third="three") == \
+    {"first": 1, "second":2, "third": "three"}
 
-def test_power():
-    assert calculator.power(2,5) == 32
-
-def test_factorial_0():
-    assert calculator.factorial(0) == 1
-
-def test_factorial_10():
-    assert calculator.factorial(10) == 3628800
+def test_ingredients():
+    assert calculator.ingredients(eggs=2, cheese="1/2 cup", bacon="2 strips") == \
+    {"eggs", "bacon", "cheese"}
